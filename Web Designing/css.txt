@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+</head>
+<body>
+
+
+<br>
+<br>
+<br>
+<h1>Cross Name Using Margin properties</h1>
+<hr>
+<br>
+<br>
+<div style="margin-right:200px;border-style:solid;height:400px;width:100%;">
+	<span>
+	<center>
+<p style = "margin-left:30px; margin-top:60px;"> A </p> 
+<p style = "margin-left:60px;">N</p>
+<p style = "margin-left:90px;">S</p>
+<p style = "margin-left:120px;">H</p>
+<p style = "margin-left:150px;">I</p>
+<p style = "margin-left:180px;">T</p>
+<p style = "margin-left:210px;">A</p>
+<p>J</p>
+	<p style="margin-left:30px;margin-top:-67px;">H</p>
+	<p style="margin-left:70px;margin-top:-67px;">A</p>
+	<p style="margin-left:110px;margin-top:-67px;">J</p>
+	<p style="margin-left:140px;margin-top:-62px;">J</p>
+	<p style="margin-left:170px;margin-top:-67px;">A</p>
+	<p style="margin-left:200px;margin-top:-67px;">R</p>
+	<p style="margin-left:230px;margin-top:-67px;">W</p>
+	<p style="margin-left:250px;margin-top:-67px;">A</p>
+	<p style="margin-left:280px;margin-top:-60px;">L</p>
+
+</center>
+</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+============================================================
+
+
+
+
+
+
+
+Binary Search Concept
+
+def binary_search(item_list,item):
+    first = 0
+    last = len(item_list)-1
+    found = False
+    while( first<=last and not found):
+      mid = (first + last)//2
+      if item_list[mid] == item :
+        found = True
+      else:
+        if item < item_list[mid]:
+          last = mid - 1
+        else:
+          first = mid + 1  
+    return found
+  
+print(binary_search([1,2,3,5,8], 6))

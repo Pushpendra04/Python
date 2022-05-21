@@ -1,0 +1,86 @@
+Understand = why use django for web application;
+=====================
+website :-  MVC ,MVT 
+website :-  model view controller(templtes)
+
+website - 
+
+e-commerc :- 
+              urls:- 
+              model :- database schema
+              view (index.html)(controller logic).
+templates :- css ,js,bootstrap,
+         
+
+python :- 
+
+
+front-end:- html css javasc
+
+backend - python
+database :- mysql 
+
+
+
+======================
+pip install django = 3.8.2
+===============
+pip install pysql,mysqlclient
+================
+
+django-admin startproject crudexample 
+==================
+django startapp employee
+====================
+
+mysql :-
+https://www.javatpoint.com/django-crud-application;
+=======================
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+Today topic CSS
+================
+CSS handle  the look and feel part of web page.Using CSS  you can control
+the color of the text, the style of font
+spcaing between paragraph how columns are sized and laid out ,what background images,or colors are used layout design and variation in display for diffrent devices  and screen size and more effect 
+so when using CSS we can create more responsive effecetive color ful 
+formatting  and lot's of desgin pattern(simple defination of css) 
+====================
+now example :-
+====================
+there are three type of css 
+==============
+1.inline
+
+       <p style="properties:value;"
+
+
+
+
+2.external
+    test.css 
+<head>
+<link rel="" href="test.css"></link>
+
+</head>
+
+
+3.internal
+<head>
+<style type="text/css">
+
+</style>
+
+</head>
+
+
+
+
+===============
+selectors:-
+(tag name,class,id,attributes)
+ 
+properties:-
+value:-
+==================
+selector:
+p  {  color: red ;  }
+.classname
+#idname
+
+
+================
+index.html
+all tags->define in single file
+===============
+color:-
+================
+10 :- color RGB
+1o:- color HEX
+10 :- color HSL
+1o:-color HSLA
+================
+using margin properties:-
+================
+p
+   u
+      s                         s
+         h                 i
+             p        n
+                e
+         g	n
+h	   d
+	      r
+                           a
+                   
+================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
